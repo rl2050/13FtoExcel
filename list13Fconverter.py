@@ -68,8 +68,7 @@ def toCSVfile(list13fSec):
         delimiter =",",  
         fmt ='% s') 
 
-def main():
+if __name__ == '__main__':
     listof13fSec = converting13fTolist(pdfName)
-
     toExcelFile(listof13fSec)
     toCSVfile(listof13fSec)
