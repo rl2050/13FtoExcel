@@ -6,7 +6,7 @@ and CSV format.
 Change the *pdfName* in config.py to the correct PDF file (location).
 
 ------------------------------------------------------------------------
-**Used libraries / dependencies**
+**Used libraries / dependencies**  
 [pdfplumber](https://github.com/jsvine/pdfplumber) -> <ins>use version 0.5.27</ins> (new version will add white spaces between lines)  
 numpy  
 xlsxwriter
