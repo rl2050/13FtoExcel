@@ -59,10 +59,8 @@ def toExcelFile(list13fSec):
 def toCSVfile(list13fSec):
     #creating csv file
     #current location of folder
-    import os
-    currentLocation = os.getcwd()
     # file name + location
-    fileName = currentLocation + '\\' + pdfName[:-3] +'.csv'
+    fileName = pdfName[:-3] +'.csv'
     np.savetxt(fileName,  
         list13fSec, 
         delimiter =",",  
